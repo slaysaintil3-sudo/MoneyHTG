@@ -3,120 +3,173 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MoneyHTG - Gade Videyo, Touche Lajan</title>
+<title>MoneyHTG</title>
 
 <style>
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:#f5f5f5;
+background:#f4f6f9;
 }
 
 header{
-    background:#0d6efd;
-    color:white;
-    padding:20px;
-    text-align:center;
+background:#0d6efd;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+font-weight:bold;
 }
 
 .hero{
-    text-align:center;
-    padding:60px 20px;
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(to right,#0d6efd,#00c6ff);
+color:white;
 }
 
 .hero h1{
-    font-size:40px;
-    color:#0d6efd;
+font-size:42px;
+margin-bottom:15px;
 }
 
 .hero p{
-    margin-top:15px;
-    font-size:18px;
-    color:#555;
+font-size:18px;
+margin-bottom:25px;
 }
 
 .btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:12px 25px;
-    background:#0d6efd;
-    color:white;
-    text-decoration:none;
-    border-radius:5px;
+display:inline-block;
+padding:12px 25px;
+background:white;
+color:#0d6efd;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
 }
 
-.features{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-    padding:40px 20px;
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+margin-top:30px;
 }
 
 .card{
-    background:white;
-    width:280px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.1);
-    text-align:center;
+background:white;
+width:280px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
 .card h3{
-    color:#0d6efd;
-    margin-bottom:10px;
+margin-bottom:10px;
+color:#0d6efd;
 }
 
 footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
-    <h1>MoneyHTG</h1>
-    <p>Gade Videyo • Touche Rekonpans</p>
+<div class="logo">💰 MoneyHTG</div>
+
+<nav>
+<a href="#">Akèy</a>
+<a href="#">Videyo</a>
+<a href="#">Balans</a>
+<a href="#">Kontak</a>
+</nav>
 </header>
 
 <section class="hero">
-    <h1>Byenvini sou MoneyHTG</h1>
-    <p>Gade videyo chak jou epi touche rekonpans.</p>
-    <a href="#" class="btn">Kreye Kont</a>
+<h1>Gade Videyo epi Touche Rekonpans</h1>
+<p>Kreye yon kont epi kòmanse touche pwen chak jou.</p>
+
+<a href="#" class="btn">Kòmanse Kounye a</a>
 </section>
 
-<section class="features">
+<section class="section">
+<h2>Kijan li mache?</h2>
 
-    <div class="card">
-        <h3>🎥 Gade Videyo</h3>
-        <p>Gade videyo yo jiska fen pou jwenn pwen.</p>
-    </div>
+<div class="cards">
 
-    <div class="card">
-        <h3>💰 Touche HTG</h3>
-        <p>Konvèti pwen ou yo an lajan.</p>
-    </div>
+<div class="card">
+<h3>📝 Enskri</h3>
+<p>Kreye yon kont gratis sou MoneyHTG.</p>
+</div>
 
-    <div class="card">
-        <h3>📲 Retrè Rapid</h3>
-        <p>Retrè atravè MonCash oswa NatCash.</p>
-    </div>
+<div class="card">
+<h3>🎥 Gade Videyo</h3>
+<p>Gade videyo yo jiska fen.</p>
+</div>
 
+<div class="card">
+<h3>💰 Touche HTG</h3>
+<p>Resevwa rekonpans pou aktivite ou.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Avantaj MoneyHTG</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>⚡ Rapid</h3>
+<p>Platfòm fasil pou itilize.</p>
+</div>
+
+<div class="card">
+<h3>🎁 Bonis</h3>
+<p>Jwenn rekonpans chak jou.</p>
+</div>
+
+<div class="card">
+<h3>📱 Mobile</h3>
+<p>Fonksyone byen sou telefòn.</p>
+</div>
+
+</div>
 </section>
 
 <footer>
-    <p>&copy; 2026 MoneyHTG - Tout dwa rezève.</p>
+<p>© 2026 MoneyHTG - Tout dwa rezève.</p>
 </footer>
 
 </body>
-  </html>
+</html>
